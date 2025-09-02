@@ -18,6 +18,36 @@
 
             <button id="start-button" disabled>Начать игру</button>
         </div>
+
+        <div id="game-screen" class="screen">
+            <div class="game-header">
+                <div class="timer">
+                    <span>Время: </span>
+                    <span id="timer">02:00</span>
+                </div>
+                <div class="score">
+                    <span>Баллы: </span>
+                    <span id="score">0</span>
+                </div>
+                <div class="player-info">
+                    <span>Игрок: </span>
+                    <span id="current-player"></span>
+                </div>
+            </div>
+
+            <div class="game-content">
+                <div class="game-board" id="game-board">
+
+                </div>
+
+                <div class="game-guide">
+                    <h3>Как играть:</h3>
+                    <p>Кликайте на трубы, чтобы повернуть их на 90 градусов</p>
+                    <p>Соедините начало с концом </p>
+                    <p>У вас есть 2 минуты!</p>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="../game.js"></script>
 </body>

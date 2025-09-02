@@ -102,3 +102,54 @@ input::placeholder {
 .input-group {
     margin: 30px 0;
 }
+
+/* Тут я делаю игровой экран*/
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.game-header > div {
+    font-size: 16px;
+    color: #00b4db;
+}
+
+.game-content {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 80px);
+    gap: 20px;
+}
+
+.game-board {
+    flex: 3;
+    display: grid;
+    gap: 2px;
+    background: #1a1f4b;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.game-guide {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.game-guide h3 {
+    color: #00b4db;
+    margin-bottom: 10px;
+}
+
+.game-guide p {
+    margin: 5px 0;
+    color: #ccc;
+}
